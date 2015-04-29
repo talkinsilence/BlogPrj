@@ -1,5 +1,14 @@
 package com.eoot.blogprj.controller;
 
-public class AboutController {
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
+@Controller
+public class AboutController {
+	
+	@RequestMapping("/about")
+	public String about(){
+		
+		return "blog/about/about";
+	}
 }
