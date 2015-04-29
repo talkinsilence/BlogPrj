@@ -15,9 +15,8 @@
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="resources/css/blog-home.css" rel="stylesheet">
-    <!-- <link href="resources/css/clean-blog.min.css" rel="stylesheet"> -->
-
+    <link href="resources/css/clean-blog.min.css" rel="stylesheet">
+	
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -28,6 +27,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="resources/js/clean-blog.min.js"></script>
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,10 +43,10 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -53,6 +55,7 @@
                 </button>
                 <a class="navbar-brand" href="index">Start Bootstrap</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -77,21 +80,21 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <!-- <header class="intro-header" style="background-image: url('resources/images/about-bg.jpg')">
+    <header class="intro-header" style="background-image: url('resources/images/about-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>About Me</h1>
+                        <h1>Note</h1>
                         <hr class="small">
                         <span class="subheading">This is what I do.</span>
                     </div>
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>
 
- 	<!-- Page Content -->
+<!-- Page Content -->
     <div class="container">
 
         <div class="row">
@@ -100,56 +103,24 @@
             <div class="col-md-8">
 
                 <h1 class="page-header">
-                    Page Heading
+                   	용쌤 필기
                     <small>Secondary Text</small>
                 </h1>
 
-                <!-- First Blog Post -->
+                <!-- Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Java 용쌤 1회자</a>
                 </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
+                <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>
                 <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
-                <hr>
-
-                <!-- Second Blog Post -->
+                
+                <!-- Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Java 용쌤 1회자</a>
                 </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
-                <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
-                <hr>
-
-                <!-- Third Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
-                <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
+                <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
+                <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>
                 <hr>
 
                 <!-- Pager -->
