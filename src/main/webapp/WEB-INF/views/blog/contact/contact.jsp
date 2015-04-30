@@ -63,10 +63,13 @@
                         <a href="index">Home</a>
                     </li>
                     <li>
-                        <a href="about">About</a>
+                        <a href="about">About Us</a>
                     </li>
                     <li>
                         <a href="note">Note</a>
+                    </li>
+                    <li>
+                        <a href="article">Article</a>
                     </li>
                     <li>
                         <a href="contact">Contact</a>
@@ -85,9 +88,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>Contact Me</h1>
+                        <h1>전화번호 뭐예요</h1>
                         <hr class="small">
-                        <span class="subheading">Have questions? I have answers (maybe).</span>
+                        <span class="subheading">Have questions? Want to hire us? We are ready to help you.</span>
                     </div>
                 </div>
             </div>

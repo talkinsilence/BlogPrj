@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - About</title>
+    <title>Clean Blog - Note</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -63,10 +63,13 @@
                         <a href="index">Home</a>
                     </li>
                     <li>
-                        <a href="about">About</a>
+                        <a href="about">About Us</a>
                     </li>
                     <li>
                         <a href="note">Note</a>
+                    </li>
+                    <li>
+                        <a href="article">Article</a>
                     </li>
                     <li>
                         <a href="contact">Contact</a>
@@ -85,9 +88,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>Note</h1>
+                        <h1>뭘 좀 알고 코딩하자</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">Super useful. If you seek for how your codes work!</span>
                     </div>
                 </div>
             </div>
