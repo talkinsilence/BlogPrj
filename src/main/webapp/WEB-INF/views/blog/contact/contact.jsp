@@ -90,7 +90,7 @@
                     <div class="page-heading">
                         <h1>전화번호 뭐예요</h1>
                         <hr class="small">
-                        <span class="subheading">Have questions? Want to hire us? We are ready to help you.</span>
+                        <span class="subheading">Have questions? We are ready to help you.</span>
                     </div>
                 </div>
             </div>

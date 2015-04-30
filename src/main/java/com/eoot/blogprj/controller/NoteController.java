@@ -11,4 +11,10 @@ public class NoteController {
 		
 		return "blog/note/note";
 	}
+	
+	@RequestMapping("/noteDetail")
+	public String getNote(){
+	
+		return "blog/note/noteDetail";
+	}
 }

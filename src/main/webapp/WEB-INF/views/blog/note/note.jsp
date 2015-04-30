@@ -112,7 +112,7 @@
 
                 <!-- Blog Post -->
                 <h2>
-                    <a href="#">Java 용쌤 1회자</a>
+                    <a href="noteDetail">Java 용쌤 1회차</a>
                 </h2>
                 <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
                 <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>
@@ -120,7 +120,7 @@
                 
                 <!-- Blog Post -->
                 <h2>
-                    <a href="#">Java 용쌤 1회자</a>
+                    <a href="#">Java 용쌤 1회차</a>
                 </h2>
                 <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
                 <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>

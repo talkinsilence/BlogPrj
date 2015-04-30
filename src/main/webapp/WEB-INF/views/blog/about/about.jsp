@@ -90,7 +90,7 @@
                     <div class="page-heading">
                         <h1>이름이 뭐예요</h1>
                         <hr class="small">
-                        <span class="subheading">Check what we've done and what we are doing!</span>
+                        <span class="subheading">Check what we've done and what we're doing!</span>
                     </div>
                 </div>
             </div>
