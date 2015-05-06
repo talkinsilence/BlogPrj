@@ -1,5 +1,9 @@
 package com.eoot.blogprj.dao;
 
-public interface NoteDao {
+import java.util.List;
 
+import com.eoot.blogprj.model.Note;
+
+public interface NoteDao {
+	public List<Note> getNotes();
 }

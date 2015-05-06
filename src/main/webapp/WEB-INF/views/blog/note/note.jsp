@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -111,20 +113,20 @@
                 </h1>
 
                 <!-- Blog Post -->
-                <h2>
-                    <a href="noteDetail">Java 용쌤 1회차</a>
-                </h2>
-                <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
-                <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>
-                <hr>
+                <c:if test="${empty notes}">
+                	<p>작성글이 없습니다.</p>
+                </c:if>
                 
-                <!-- Blog Post -->
-                <h2>
-                    <a href="#">Java 용쌤 1회차</a>
-                </h2>
-                <p><span class="glyphicon glyphicon-time"></span> 2015-04-29 13:00</p>
-                <p>자바란 무엇인가?ㅎ 헤헤헤헤헤ㅔ 헤헤헤ㅔ헤헤헤ㅔ헤헤ㅔ헤헤ㅔ헤헤헤ㅔ헤헤헤헤헿헤ㅔ헤헤헤ㅔ헤헤헤isdfisjdafjsa-fdja-sdfj-oasjdf-oasjd-fojdfdsafasdfㅁㄴㅇㄻ...</p>
-                <hr>
+                <c:if test="${not empty notes}">
+	                <c:forEach var="n" items="${notes}">
+		                <h2>
+		                    <a href="noteDetail?c=${code}">${n.title}</a>
+		                </h2>
+		                <p><span class="glyphicon glyphicon-time"></span><fmt:formatDate value="${n.regdate}" pattern="yyyy-MM-dd kk:mm:ss" /></p>
+		                <p>${n.content}</p>
+		                <hr>
+	                </c:forEach>
+                </c:if>
 
                 <!-- Pager -->
                 <ul class="pager">
