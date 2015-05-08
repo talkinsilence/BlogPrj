@@ -9,5 +9,8 @@
     	<select id="getNotes" resultType="Note">
     		SELECT * FROM NOTES
     	</select>
+    	<select id="getNote" resultType="Note">
+    		SELECT * FROM NOTES WHERE CODE =#{code}
+    	</select>
     	
     </mapper>

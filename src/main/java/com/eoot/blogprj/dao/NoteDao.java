@@ -6,4 +6,5 @@ import com.eoot.blogprj.model.Note;
 
 public interface NoteDao {
 	public List<Note> getNotes();
+	public Note getNote();
 }

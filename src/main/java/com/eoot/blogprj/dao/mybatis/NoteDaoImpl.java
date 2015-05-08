@@ -20,5 +20,11 @@ public class NoteDaoImpl implements NoteDao{
 		NoteDao noteDao = sqlSession.getMapper(NoteDao.class);
 		return noteDao.getNotes();
 	}
+	
+	@Override
+	public Note getNote() {
+		NoteDao noteDao = sqlSession.getMapper(NoteDao.class);
+		return noteDao.getNote();
+	}
 
 }
