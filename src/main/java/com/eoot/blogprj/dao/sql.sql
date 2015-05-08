@@ -8,8 +8,6 @@ Hit INT NOT NULL,
 LikeCnt INT NOT NULL
 );
 
-drop table dbo.Notes;
-
 SELECT * FROM Notes;
 delete from notes;
 
